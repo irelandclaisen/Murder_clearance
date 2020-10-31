@@ -34,7 +34,7 @@ those harder to solve cases.
 
 ## Data
 Data was taken from murderdata.org and the US census bureau.  To get the data, download the Uniform Crime Report and
-Supplementary Homicide Report from murderdata.org, and the 2010 ACS 5-Year PUMS and Crosswalk Between 2013 MSAs and 2010 PUMAs
+Supplementary Homicide Report from [murderdata.org](http://www.murderdata.org/p/data-docs.html), and the [2010 ACS 5-Year PUMS](https://www.census.gov/programs-surveys/acs/microdata/access.2010.html) and [Crosswalk Between 2013 MSAs and 2010 PUMAs](https://usa.ipums.org/usa-action/variables/met2013#description_section).
 from the US census bureau.  
 
 
