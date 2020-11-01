@@ -50,11 +50,11 @@ To look at some preliminary data analysis, see my [Tableau dashboard](https://pu
 
 
 ## Model Overview
-I ended up using the logisitc regression model for our final model.  Both the logistic regression model and the random forest model worked comparably, but I stuck with the logistic regression model because of its higher interpretability.
+I ended up using the logisitc regression model for our final model.  Both the logistic regression model and the random forest model worked comparably, but I chose to do more analysis with the logistic regression model because of its higher interpretability.
 
 My logistic regression model was pretty good at predicting whether a murder would be solved, with a precision of 0.90 and recall of 0.74.  It was a little worse at predicting whether a murder will not be solved, with a precision of 0.55 and recall of 0.79.  I wanted a higher recall vs precision, because I think it is more important to find all the cases that are not going to be solved versus avoiding accidentally labeling cases that will be solved incorrectly.
 
-Looking at the coefficients for out model, we can see what sort of attributes of cases that make it harder to solve.  We see that features like victim being male, victim being black, the weapon being a gun, and the crime being gang related have negative coefficients, which suggests that these sorts of crimes are more likely not to be solved.  Meanwhile, features like the victim being female, victim being white, and asphyxiation being the cause of death have positive coefficients, which suggests that crimes with these attributes are more likely to be solved.
+Looking at the coefficients for my model, we can see what sort of attributes of a case that make it harder to solve.  We see that features like victim being male, victim being black, the weapon being a gun, and the crime being gang related have negative coefficients, which suggests that these sorts of crimes are more likely not to be solved.  Meanwhile, features like the victim being female, victim being white, and asphyxiation being the cause of death have positive coefficients, which suggests that crimes with these attributes are more likely to be solved.
 
 We also can look at the coefficients in front of states which can tell us what states should invest more resources into solving their homocides.  For example the coefficient in front of Florida is negative while the coefficient for Delaware is positive, suggesting that a murder is more likely to be solved in Delaware than in Florida
 
