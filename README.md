@@ -46,7 +46,7 @@ Data was taken from murderdata.org and the US census bureau.  To get the data, d
 Supplementary Homicide Report from [murderdata.org](http://www.murderdata.org/p/data-docs.html), and the [2010 ACS 5-Year PUMS](https://www.census.gov/programs-surveys/acs/microdata/access.2010.html) and [Crosswalk Between 2013 MSAs and 2010 PUMAs](https://usa.ipums.org/usa-action/variables/met2013#description_section).
 from the US census bureau.  
 
-To look at some preliminary data analysis, see my [Tableau dashboard](https://public.tableau.com/profile/julia.nguyen4200#!/vizhome/MurderClearance/Dashboard1).
+To look at some preliminary data analysis, see my [Tableau dashboard](https://public.tableau.com/profile/julia.nguyen4200#!/vizhome/MurderClearance/Story1).
 
 
 ## Model Overview
